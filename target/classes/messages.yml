@@ -1,0 +1,21 @@
+Prefix: '&c'
+Help: '&cHelp command'
+Noargs: 'Please provide a args'
+InvalidSubCommand: 'Invalid Sub Command'
+Error: 'Error'
+
+
+Chat:
+  PlayerNotFound: 'Player not found'
+  PlayerMsgFormat: '%player% -> %msg%'
+  PlayerNotMessaged: 'You have no one to reply to'
+  Notargetprovided: 'You must give a target'
+  Format: '%rank% &f%player%&f: '
+  BlackListedWord: 'You message was not sent due to %word% being blacklisted'
+
+Welcome:
+  PlayerWelcomeMsgNew: 'Welcome %player%'
+  PlayerWelcomeMsg: 'Welcome back, %player%'
+  BroadCastNewPlayer: 'Welcome %player% to %servername% #%count%'
+  TitleMessageNew: 'welcome %player% to %servername%'
+  TitleMessage: 'welcome back, %player%'

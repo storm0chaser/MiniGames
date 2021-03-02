@@ -1,0 +1,21 @@
+name: MiniGames
+main: me.storm0chaser.MiniGames.Main
+author: Storm0chaser
+version: beta
+description: MiniGames
+depend: [ProtocolLib]
+
+commands:
+  msg:
+    description: msg other people
+    aliases: [message, m]
+  reply:
+    description: reply to other peoplew
+    aliases: [r]
+  event:
+    description: minigames main command
+    aliases: [minigames, minigame]
+  spawn:
+    description: Sends you to spawn
+  filteradd:
+    description: Add words to chat filter
