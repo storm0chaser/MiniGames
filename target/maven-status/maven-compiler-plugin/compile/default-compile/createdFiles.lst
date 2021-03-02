@@ -1,3 +1,4 @@
+me\storm0chaser\MiniGames\Games\Pirate\PirateRunnable\PirateRunnable.class
 me\storm0chaser\MiniGames\Commands\BasicCommands\Spawn.class
 me\storm0chaser\MiniGames\ScoreBoard\PvPScoreBoard.class
 me\storm0chaser\MiniGames\Commands\VoteCommand.class
@@ -7,12 +8,14 @@ me\storm0chaser\MiniGames\Commands\CommandManager.class
 me\storm0chaser\MiniGames\Chat\Chat.class
 me\storm0chaser\MiniGames\Objects\EventObject.class
 me\storm0chaser\MiniGames\Games\Pirate\Events\EventListener.class
+me\storm0chaser\MiniGames\Games\Pirate\Reset.class
 me\storm0chaser\MiniGames\Config\Files.class
 me\storm0chaser\MiniGames\Chat\Message\reply.class
 me\storm0chaser\MiniGames\Commands\HelpCommand.class
 me\storm0chaser\MiniGames\Events\arrowhitblockevent\ArrowHitBlockEvent.class
 me\storm0chaser\MiniGames\Games\Pirate\PirateManager.class
 me\storm0chaser\MiniGames\ScoreBoard\ScoreBoardUpdater.class
+me\storm0chaser\MiniGames\Utils\BukkitTask.class
 me\storm0chaser\MiniGames\Chat\Message\Msg.class
 me\storm0chaser\MiniGames\LobbyPvp\PvPHashMap.class
 me\storm0chaser\MiniGames\Commands\StartCommand.class

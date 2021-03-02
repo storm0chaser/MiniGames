@@ -18,8 +18,8 @@ public class PiratesScoreBoard {
         o.setDisplaySlot(DisplaySlot.SIDEBAR);
         o.setDisplayName(ChatColor.GOLD+""+ChatColor.BOLD+"Gerber"+ChatColor.WHITE+""+ChatColor.BOLD+"Games");
 
-        Score a = o.getScore(" Team 1: "+ Main.Games.get(Managers.HighestGamemode).getTeam1Players().size());
-        Score a1 = o.getScore(" Team 2: "+ Main.Games.get(Managers.HighestGamemode).getTeam2Players().size());
+        Score a = o.getScore(" Team 1: "+ Main.Games.get(Managers.HighestGamemode).getTeam1Players().size()+ " Players");
+        Score a1 = o.getScore(" Team 2: "+ Main.Games.get(Managers.HighestGamemode).getTeam2Players().size()+ " Players");
         Score a3 = o.getScore("");
         Score a4 = o.getScore("GerberGames.net");
         Score a5 = o.getScore("");

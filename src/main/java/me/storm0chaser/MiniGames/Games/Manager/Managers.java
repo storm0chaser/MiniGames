@@ -1,5 +1,6 @@
 package me.storm0chaser.MiniGames.Games.Manager;
 
+import me.storm0chaser.MiniGames.Games.Pirate.PirateManager;
 import me.storm0chaser.MiniGames.Main;
 import me.storm0chaser.MiniGames.Objects.GamesObject;
 import org.bukkit.*;
@@ -64,6 +65,11 @@ public class Managers {
             for(Player p : Main.Games.get(HighestGamemode).getTeam2Players()){
                 p.teleport(Main.Games.get(HighestGamemode).getSpawnLocationTeam2());
             }
+
+            if(HighestGamemode.equals("pirate")){
+                PirateManager.Start();
+            }
+
 
 
 

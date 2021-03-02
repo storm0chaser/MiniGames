@@ -1,5 +1,6 @@
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\ScoreBoard\ScoreBoard.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Commands\CommandHandler.java
+C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Games\Pirate\Reset.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Commands\HelpCommand.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Commands\ScoreCommand.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Objects\GamesObject.java
@@ -23,7 +24,9 @@ C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0cha
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Events\arrowhitblockevent\ArrowHitBlockEvent.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Main.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Chat\Chat.java
+C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Games\Pirate\PirateRunnable\PirateRunnable.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\LobbyPvp\PvP.java
+C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Utils\BukkitTask.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Commands\BasicCommands\Spawn.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Config\Files.java
 C:\Users\lewis\OneDrive\Desktop\Coding\Java\MiniGames\src\main\java\me\storm0chaser\MiniGames\Guis\VoteGamemodeGui.java

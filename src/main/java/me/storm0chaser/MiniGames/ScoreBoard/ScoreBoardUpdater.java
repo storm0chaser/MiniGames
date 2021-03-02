@@ -64,6 +64,9 @@ public class ScoreBoardUpdater implements Runnable {
                 if(p.getScoreboard().equals(sb)){return;}
                 new ScoreBoard(p);
             }
+            if(p.getLocation().getWorld().getName().equals("pirate")){
+                new PiratesScoreBoard(p);
+            }
         }
 
 
