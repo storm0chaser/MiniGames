@@ -25,6 +25,8 @@ public class CommandManager implements CommandExecutor {
     public String join = "join";
     public String leave = "leave";
     public String leaderboard = "leaderboard";
+    public String vote = "vote";
+    public String forcestart = "forcestart";
     public void setup(){
 
         plugin.getCommand(main).setExecutor(this);
@@ -34,6 +36,8 @@ public class CommandManager implements CommandExecutor {
         this.commands.add(new JoinCommand());
         this.commands.add(new LeaveCommand());
         this.commands.add(new ScoreCommand());
+        this.commands.add(new VoteCommand());
+        this.commands.add(new ForceStartCommand());
     }
 
     @Override

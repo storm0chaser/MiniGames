@@ -17,7 +17,11 @@ import me.storm0chaser.MiniGames.Config.Files;
 import me.storm0chaser.MiniGames.Config.Messages;
 import me.storm0chaser.MiniGames.Events.BasicEvents;
 import me.storm0chaser.MiniGames.Games.Pirate.Events.EventListener;
+import me.storm0chaser.MiniGames.Games.Manager.Managers;
+import me.storm0chaser.MiniGames.Guis.GuiEventHandler;
+import me.storm0chaser.MiniGames.LobbyPvp.PvP;
 import me.storm0chaser.MiniGames.Objects.EventObject;
+import me.storm0chaser.MiniGames.Objects.GamesObject;
 import me.storm0chaser.MiniGames.ScoreBoard.ScoreBoardUpdater;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -44,8 +48,9 @@ public class Main extends JavaPlugin implements Listener {
     public static  EventObject MiniGamesEvent;
     public static HashMap<Player, Integer> PlayerScores = new HashMap<>();
     public static long eventcountdown;
-    //public static List<String> BlackListedWords;
     public static HashSet<String> BlackListedWords;
+    public static HashMap<String, GamesObject> Games = new HashMap();
+    public static ArrayList<Player> Voted = new ArrayList<>();
 
 
     @Override
@@ -59,6 +64,7 @@ public class Main extends JavaPlugin implements Listener {
         commandManager = new CommandManager();
         commandManager.setup();
         Main.instance = instance;
+        Managers.Pirates();
         this.getCommand("msg").setExecutor(new Msg());
         this.getCommand("reply").setExecutor(new reply());
         this.getCommand("spawn").setExecutor(new Spawn());
@@ -66,6 +72,8 @@ public class Main extends JavaPlugin implements Listener {
         Bukkit.getPluginManager().registerEvents(new BasicEvents(), this);
         Bukkit.getPluginManager().registerEvents(new EventListener(this), this);
         Bukkit.getPluginManager().registerEvents(new Chat(), this);
+        Bukkit.getPluginManager().registerEvents(new PvP(), this);
+        Bukkit.getPluginManager().registerEvents(new GuiEventHandler(), this);
         Bukkit.getPluginManager().registerEvents(new me.storm0chaser.MiniGames.Events.arrowhitblockevent.EventListener(this), this);
         Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new ScoreBoardUpdater(), 0L, 60);
 

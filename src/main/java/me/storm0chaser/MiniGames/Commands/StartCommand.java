@@ -29,7 +29,7 @@ public class StartCommand extends CommandHandler{
 
             Main.Output(Main.MiniGamesEvent.getTimestarted()+" < null??");
 
-            TextComponent Msg = new TextComponent(p.getName() + ChatColor.LIGHT_PURPLE+" Has started the Event \n"+ChatColor.GRAY+"/event join"+ ChatColor.LIGHT_PURPLE+"\nTo join the event or click this message");
+            TextComponent Msg = new TextComponent(p.getName() + ChatColor.LIGHT_PURPLE+" Has started the Event \n"+ChatColor.GRAY+"/event join"+ ChatColor.LIGHT_PURPLE+"\nTo join the event or click this message\n The event will start in 5 minutes");
             Msg.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/event join"));
             Msg.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new ComponentBuilder(net.md_5.bungee.api.ChatColor.GRAY+"Click here to join").create()));
             Msg.setColor(net.md_5.bungee.api.ChatColor.WHITE);

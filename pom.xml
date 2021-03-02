@@ -64,6 +64,7 @@
         </repository>
     </repositories>
     <dependencies>
+
         <dependency>
             <groupId>com.github.SaberLLC</groupId>
             <artifactId>factions</artifactId>
@@ -116,6 +117,13 @@
             <artifactId>api</artifactId>
             <version>5.2</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sk89q</groupId>
+            <artifactId>worldedit</artifactId>
+            <version>Latest</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/lewis/OneDrive/Desktop/Coding/Java/lib/WorldEdit.jar</systemPath>
         </dependency>
 
 
