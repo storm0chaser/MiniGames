@@ -18,6 +18,7 @@ public class LeaderBoardGui implements InventoryHolder {
     private Inventory Inv;
 
     public LeaderBoardGui(Player p){
+        //YES I"M A RETARD DON"T LOOK AT THIS CLASS
 
         Map.Entry<Player, Integer> a;
         Map.Entry<Player, Integer> a1;
